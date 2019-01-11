@@ -20,7 +20,7 @@ Alongside the GFortran compiler, the open-source platform for data analysis and 
 
 For other Linux flavors, OS X and Windows, packages are available at:
 
-https://gcc.gnu.org/wiki/GFortranBinaries for GFortran
+https://gcc.gnu.org/wiki/GFortranBinaries for GFortran    
 https://www.paraview.org/download/ for ParaView
 
 
