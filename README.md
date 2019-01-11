@@ -36,6 +36,7 @@ https://www.paraview.org/download/ for ParaView
 1. Input numerical values in the file physical_data.txt
 
 80            ! n  number of mesh cells in y
+
 70            ! m  number of mesh cells in x
 5             ! Length L1 of the domain
 2             ! Height L2 (Left side of the domain)
