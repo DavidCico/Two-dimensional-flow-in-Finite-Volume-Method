@@ -9,13 +9,14 @@ These instructions will get you a copy of the project up and running on your loc
 
 The code being implemented in Fortran 90, and Fortran being a compiled language, it requires a compiler such as <a href="https://gcc.gnu.org/wiki/GFortran">GFortran</a>.
 
-In Ubuntu, Mint and Debian you can install Python 3 like this:
+In Ubuntu, Mint and Debian you can install GFortran like this:
 
-    $ sudo apt-get install python3 python3-pip
+    sudo apt-get install gfortran
+    
+Alongside the GFortran compiler, the open-source platform for data analysis and visualization, <a href="https://www.paraview.org/">ParaView</a>, is also required and installed through the commands:
 
-Alongside Python, the SciPy packages are also required. In Ubuntu and Debian, the SciPy ecosystem can be installed by:
-
-    $ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+    sudo apt-get update
+    sudo apt-get install paraview
 
 Finally, the latest release of Seaborn visualization package, which can be installed with pip:
     
