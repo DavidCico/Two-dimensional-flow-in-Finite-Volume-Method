@@ -1,5 +1,5 @@
-# Passive scalar transport in a 2D flow using Finite Volume Method
-This code shows an example of a buy-and-hold investment of an ETF using Python, and Monte Carlo methods to predict the investment return in the future.
+# Passive scalar transport in a 2D flow using Finite Volume Method (FVM)
+This code is a FORTRAN implementation of a 2D flow using FVM. The flow of a passive scalar is modelled, and visualization of the field is done with Paraview.
 
 ## Getting Started
 
