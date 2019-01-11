@@ -26,9 +26,12 @@ https://www.paraview.org/download/ for ParaView
 
 ## File descriptions
 
-* 'ETF_data' which is a univariate time series of the price history of the ETF.
-* 'Main.py' which contains the main procedure, as well as the data pre-processing of the xlsx file 'ETF_data.xlsx'
-* 'Monte_Carlo_GBM.py' which contains the different algorithms used for comparison.
+* '.f90' files in which the main code, as well as the different subroutines are programmed.
+* 'physical_data.txt' which contains the different parameters to define the domain of computation, mesh size, and other parameters such as CFL or Fourier number.
+* For the output files : 
+-> 2 output *.vts files at t=0 et TF/2
+-> 2 output *.txt files of velocity profile in x=1 for different data 
+
 * 'Post_processing.py' where all the functions for post-processing (plots, information, descriptive statistics) are implemented.
 
 ### Running the program
