@@ -49,11 +49,11 @@ https://www.paraview.org/download/ for ParaView
 
     Modifying and tuning these values in order to have an orthogonal mesh or not, diffusion and/or advection...
 
-2. Use the makefile to compile all the files and create the executable (run the command 'make' while being in the main directory of the program).
+2. Use the **Makefile** to compile all the files and create the executable (run the command 'make' while being in the main directory of the program).
 
 3. Launch the executable, which will create the mesh and run the discretised calculation on the latter.
 
-4. Observe the concentration field on the domain thanks to Paraview (open sol.pvd).
+4. Observe the concentration field on the domain using Paraview (open sol.pvd).
 
 5. Remove the created files thanks to the commands 'make clean' et 'make solclean'.
 
