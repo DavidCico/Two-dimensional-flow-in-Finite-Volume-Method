@@ -18,15 +18,10 @@ Alongside the GFortran compiler, the open-source platform for data analysis and 
     sudo apt-get update
     sudo apt-get install paraview
 
-Finally, the latest release of Seaborn visualization package, which can be installed with pip:
-    
-    $ pip install seaborn
-
 For other Linux flavors, OS X and Windows, packages are available at:
 
-http://www.python.org/getit/  
-https://www.scipy.org/install.html  
-https://seaborn.pydata.org/installing.html#installing
+https://gcc.gnu.org/wiki/GFortranBinaries for GFortran
+https://www.paraview.org/download/ for ParaView
 
 
 ## File descriptions
