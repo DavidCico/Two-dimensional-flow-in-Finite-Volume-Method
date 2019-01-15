@@ -1,5 +1,5 @@
 # Passive scalar transport in a 2D flow using Finite Volume Method (FVM)
-This code is a FORTRAN implementation of a 2D flow using FVM. The flow of a passive scalar is modelled, and visualization of the field is done with Paraview.
+This code is a Fortran implementation of a 2D flow using FVM. The flow of a passive scalar is modelled, and visualization of the field is done with Paraview.
 
 ## Getting Started
 
