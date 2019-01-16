@@ -27,7 +27,7 @@ https://www.paraview.org/download/ for ParaView
 ## File descriptions
 <ul>
 <li>'.f90' files in which the main code, as well as the different subroutines are programmed.</li>
-<li>'physical_data.txt' which contains the different parameters to define the domain of computation, mesh size, and other parameters such as CFL or Fourier numbers.</li>
+<li><p align="justify">'physical_data.txt' which contains the different parameters to define the domain of computation, mesh size, and other parameters such as CFL or Fourier numbers.</p></li>
 <li>In the output directory 'ex_output_files', there are four files: 
      <ul>
        <li> 2 output *.vts files at t=0 and Tf/2</li>  
