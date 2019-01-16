@@ -1,19 +1,19 @@
 # Passive scalar transport in a 2D flow using Finite Volume Method (FVM)
-This code is a Fortran implementation of a 2D flow using FVM. The flow of a passive scalar is modelled, and visualization of the field is done with Paraview.
+<p align="justify">This code is a Fortran implementation of a 2D flow using FVM. The flow of a passive scalar is modelled, and visualization of the field is done with Paraview.</p>
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+<p align="justify">These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.</p>
 
 ### Prerequisites
 
-The code being implemented in Fortran 90, and Fortran being a compiled language, it requires a compiler such as <a href="https://gcc.gnu.org/wiki/GFortran">GFortran</a>.
+<p align="justify">The code being implemented in Fortran 90, and Fortran being a compiled language, it requires a compiler such as <a href="https://gcc.gnu.org/wiki/GFortran">GFortran</a>.</p>
 
 In Ubuntu, Mint and Debian you can install GFortran like this:
 
     sudo apt-get install gfortran
     
-Alongside the GFortran compiler, the open-source platform for data analysis and visualization, <a href="https://www.paraview.org/">ParaView</a>, is also required and installed through the commands:
+<p align="justify">Alongside the GFortran compiler, the open-source platform for data analysis and visualization, <a href="https://www.paraview.org/">ParaView</a>, is also required and installed through the commands:</p>
 
     sudo apt-get update
     sudo apt-get install paraview
@@ -25,15 +25,15 @@ https://www.paraview.org/download/ for ParaView
 
 
 ## File descriptions
-
-* '.f90' files in which the main code, as well as the different subroutines are programmed.
-* 'physical_data.txt' which contains the different parameters to define the domain of computation, mesh size, and other parameters such as CFL or Fourier numbers.
-* In the output directory 'ex_output_files', there are four files:     
+<ul>
+<li>'.f90' files in which the main code, as well as the different subroutines are programmed.</li>
+<li>'physical_data.txt' which contains the different parameters to define the domain of computation, mesh size, and other parameters such as CFL or Fourier numbers.</li>
+<li>In the output directory 'ex_output_files', there are four files:     
 -> 2 output *.vts files at t=0 et Tf/2    
 -> 2 output *.txt files of velocity profile in x=1 for different data 
-
-* 4 animations in the 'animations' directory.
-
+</li>
+<li>4 animations in the 'animations' directory.</li>
+</ul>    
 ### Running the program
 
 1. Input numerical values in the file physical_data.txt
