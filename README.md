@@ -35,7 +35,8 @@ https://www.paraview.org/download/ for ParaView
     </ul>
 </li>
 <li>4 animations in the 'animations' directory.</li>
-</ul>    
+</ul> 
+
 ### Running the program
 
 1. Input numerical values in the file physical_data.txt
