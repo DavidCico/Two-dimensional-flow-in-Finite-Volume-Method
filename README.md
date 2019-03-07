@@ -30,8 +30,8 @@ https://www.paraview.org/download/ for ParaView
 <li><p align="justify">'<em>physical_data.txt</em>' which contains the different parameters to define the domain of computation, mesh size, and other parameters such as CFL or Fourier numbers.</p></li>
 <li>In the output directory '<em>ex_output_files</em>', there are four files: 
      <ul>
-       <li> 2 output *.vts files at t=0 and Tf/2</li>  
-       <li>2 output *.txt files of velocity profile in x=1 for different data</li>
+       <li> 2 output '<em>*.vts</em>' files at t=0 and Tf/2</li>  
+       <li>2 output '<em>*.txt</em>' files of velocity profile in x=1 for different data</li>
     </ul>
 </li>
 <li>4 animations in the '<em>animations</em>' directory.</li>
